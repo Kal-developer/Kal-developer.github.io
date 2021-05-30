@@ -1,0 +1,69 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<div class="topnav" id="myTopnav">
+			<div class="logo">Aime's Logo</div>
+			<div class="menu">
+				<a href="index.html">Home</a>
+				<a href="contact.html" class="active">Contact</a>
+				<a href="login.html">Login</a>
+				<a href="sign_up.html">Sign Up</a>
+				<a href="javascript:void(0);" class="icon" onclick="navigation()">
+					=
+				</a>
+			</div>
+		</div>
+
+		<div class="form_card">
+			<div class="container">
+				<h2>Contact Us</h2>
+			</div>
+			<div class="info">
+				<h4>E-mail Us: aimeeba250@gmail.com</h4>
+				<h4>Call Us: +250 780 707 385</h4>
+			</div>
+			<div class="contact">
+				<form action="#" method="POST">
+					<div class="container" style="background-color: white">
+						<input
+							type="text"
+							placeholder="First Name"
+							name="F_name"
+							required
+						/>
+						<input type="text" placeholder="Last Name" name="L_name" required />
+						<input
+							type="number"
+							placeholder="Your Phone"
+							name="contact"
+							required
+						/>
+						<input
+							type="text"
+							placeholder="Email address"
+							name="mail"
+							required
+						/>
+						<textarea>Give us more details...</textarea>
+					</div>
+
+					<div class="container">
+						<input type="submit" value="Send Message" />
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
